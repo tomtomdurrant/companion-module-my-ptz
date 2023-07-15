@@ -11,7 +11,8 @@
 		"lint:raw": "eslint --ext .ts --ext .js --ext .tsx --ext .jsx --ignore-pattern dist",
 		"lint": "yarn lint:raw .",
 		"lint-fix": "yarn lint --fix",
-		"license-validate": "yarn sofie-licensecheck"
+		"license-validate": "yarn sofie-licensecheck",
+		"pkg": "companion-module-build"
 	},
 	"author": "Peter Stather",
 	"license": "MIT",
@@ -37,7 +38,7 @@
 		"type-fest": "^3.3.0"
 	},
 	"devDependencies": {
-		"@companion-module/tools": "^0.5.1",
+		"@companion-module/tools": "^0.5.2",
 		"husky": "^8.0.2",
 		"lint-staged": "^13.0.4",
 		"rimraf": "^3.0.2",
