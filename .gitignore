@@ -3,4 +3,4 @@ dist/
 .vscode/
 package-lock.json
 /pkg
-/pkg.tgz
+/pkg.tgz.DS_Store
